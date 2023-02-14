@@ -1,0 +1,15 @@
+{
+    "authors": [
+        "Ismail DINC",
+        "Quentin VUERICH"
+    ],
+    "category": "vpn",
+    "description": "List VPN Seller Information",
+    "name": "VPN_SELLER",
+    "type": "vpnlist",
+    "uuid": "6e914c50-8254-402c-90dd-b2a4165e48a8",
+    "values": [
+       
+    ],
+    "version": 1
+}

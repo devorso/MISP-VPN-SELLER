@@ -1,0 +1,8 @@
+{
+    "description":"VPN Seller Information",
+    "icon":"proxy",
+    "name": "VPN_SELLER_INFORMATION",
+    "type":"proxy/vpn",
+    "uuid":"0665c849-2bfa-4f96-a170-ab9522684a66",
+    "version":1
+}

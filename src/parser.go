@@ -13,11 +13,10 @@ import (
 )
 
 type DataVPNMeta struct {
-	Name                 string   `json:"name"`
-	LengthServer         string   `json:"length_server"`
-	LengthLocationServer string   `json:"length_location_server"`
-	LengthCountry        string   `json:"length_country"`
-	IPRange              []string `json:"ip_range"`
+	Name                 string `json:"name"`
+	LengthServer         string `json:"length_server"`
+	LengthLocationServer string `json:"length_location_server"`
+	LengthCountry        string `json:"length_country"`
 }
 
 type DataVPN struct {
@@ -59,7 +58,7 @@ func main() {
 		LengthLocationServer, _ := f.GetCellValue("Feuil1", fmt.Sprintf("%v%v", "C", i))
 		LengthCountry, _ := f.GetCellValue("Feuil1", fmt.Sprintf("%v%v", "D", i))
 		uuidValue, _ := uuid.NewUUID()
-		var listIp []string
+
 		data := DataVPN{
 			Value:       Name,
 			Description: Name,
@@ -68,7 +67,6 @@ func main() {
 				LengthCountry:        LengthCountry,
 				LengthServer:         LengthServer,
 				LengthLocationServer: LengthLocationServer,
-				IPRange:              listIp,
 			},
 			Uuid: uuidValue.String(),
 		}
@@ -136,7 +134,7 @@ func main() {
 				Meta: DataIPMeta{
 					IP:        ipD,
 					Date:      "Dec 1, 2019",
-					VPNSeller: "Pia",
+					VPNSeller: "Private Internet Access VPN",
 				},
 				Description: "IP Used for Private Access VPN",
 			}

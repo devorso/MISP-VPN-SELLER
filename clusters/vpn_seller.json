@@ -11,7 +11,7 @@
     "values": [
         {
             "description": "NordVPN",
-            "uuid": "6e80d1c6-aed0-11ed-87b2-da5e7ac47349",
+            "uuid": "4ea7ab7d-5f28-4d67-844d-a83fc0e1c87a",
             "meta": {
                 "name": "NordVPN",
                 "length_server": "5500+",
@@ -22,7 +22,7 @@
         },
         {
             "description": "Surfshark",
-            "uuid": "6e80df2c-aed0-11ed-87b2-da5e7ac47349",
+            "uuid": "19d19e33-0860-496f-a9c9-b16f152f7f76",
             "meta": {
                 "name": "Surfshark",
                 "length_server": "3200+",
@@ -33,7 +33,7 @@
         },
         {
             "description": "Private Internet Access VPN",
-            "uuid": "6e80dfd6-aed0-11ed-87b2-da5e7ac47349",
+            "uuid": "031cc071-7ee9-40d0-b686-55f075a4fe31",
             "meta": {
                 "name": "Private Internet Access VPN",
                 "length_server": "10 000+",
@@ -44,7 +44,7 @@
         },
         {
             "description": "Hotspot Shield",
-            "uuid": "6e80e06c-aed0-11ed-87b2-da5e7ac47349",
+            "uuid": "2e239078-811d-4f89-9371-b3de40f1788d",
             "meta": {
                 "name": "Hotspot Shield",
                 "length_server": "3200+",
@@ -55,7 +55,7 @@
         },
         {
             "description": "IPVanish",
-            "uuid": "6e80e0f8-aed0-11ed-87b2-da5e7ac47349",
+            "uuid": "72313868-74b3-469c-aeaf-bfa63c829b43",
             "meta": {
                 "name": "IPVanish",
                 "length_server": "2200+",
@@ -66,7 +66,7 @@
         },
         {
             "description": "Ivacy",
-            "uuid": "6e80e1b6-aed0-11ed-87b2-da5e7ac47349",
+            "uuid": "32ffdb46-e8d1-4483-89c7-6c3f4f735462",
             "meta": {
                 "name": "Ivacy",
                 "length_server": "3500+",
@@ -77,7 +77,7 @@
         },
         {
             "description": "Atlas VPN",
-            "uuid": "6e80e242-aed0-11ed-87b2-da5e7ac47349",
+            "uuid": "907625b7-2069-41a0-b627-c392065f28c8",
             "meta": {
                 "name": "Atlas VPN",
                 "length_server": "750+",
@@ -88,7 +88,7 @@
         },
         {
             "description": "ExpressVPN",
-            "uuid": "6e80e2d8-aed0-11ed-87b2-da5e7ac47349",
+            "uuid": "0628ba13-bc85-4545-b7bf-6a1634afcb1f",
             "meta": {
                 "name": "ExpressVPN",
                 "length_server": "3200+",
@@ -99,7 +99,7 @@
         },
         {
             "description": "PureVPN",
-            "uuid": "6e80e364-aed0-11ed-87b2-da5e7ac47349",
+            "uuid": "7f8aa802-2ab1-4865-90ca-17fe9ea1e38a",
             "meta": {
                 "name": "PureVPN",
                 "length_server": "6500+",
@@ -110,7 +110,7 @@
         },
         {
             "description": "CyberGhost",
-            "uuid": "6e80e3e6-aed0-11ed-87b2-da5e7ac47349",
+            "uuid": "6c98ed98-b425-400f-9bb5-347b55390c3f",
             "meta": {
                 "name": "CyberGhost",
                 "length_server": "8900+",
@@ -121,7 +121,7 @@
         },
         {
             "description": "ProtonVPN",
-            "uuid": "6e80e490-aed0-11ed-87b2-da5e7ac47349",
+            "uuid": "c19b6c03-c66c-444a-a7af-07892d848619",
             "meta": {
                 "name": "ProtonVPN",
                 "length_server": "1900+",
@@ -132,7 +132,7 @@
         },
         {
             "description": "Norton Secure VPN",
-            "uuid": "6e80e512-aed0-11ed-87b2-da5e7ac47349",
+            "uuid": "941a4ef1-1e28-4fab-904d-f52c9d229b14",
             "meta": {
                 "name": "Norton Secure VPN",
                 "length_server": "2000+",
@@ -143,7 +143,7 @@
         },
         {
             "description": "Windscribe",
-            "uuid": "6e80e5c6-aed0-11ed-87b2-da5e7ac47349",
+            "uuid": "87037504-9b77-43fc-adc4-d2b192b48564",
             "meta": {
                 "name": "Windscribe",
                 "length_server": "400+",
@@ -154,7 +154,7 @@
         },
         {
             "description": "Mullvad",
-            "uuid": "6e80e652-aed0-11ed-87b2-da5e7ac47349",
+            "uuid": "cc3a5c14-80bf-42c2-a1cc-329277d625c3",
             "meta": {
                 "name": "Mullvad",
                 "length_server": "835+",
@@ -165,7 +165,7 @@
         },
         {
             "description": "Hide.me",
-            "uuid": "6e80e6d4-aed0-11ed-87b2-da5e7ac47349",
+            "uuid": "7c157d66-3334-4112-957b-71c2f4dfd5b6",
             "meta": {
                 "name": "Hide.me",
                 "length_server": "2100+",
@@ -176,7 +176,7 @@
         },
         {
             "description": "TunnelBear",
-            "uuid": "6e80e756-aed0-11ed-87b2-da5e7ac47349",
+            "uuid": "e08b0f54-e8ce-40c7-a50d-2ab2332cf26f",
             "meta": {
                 "name": "TunnelBear",
                 "length_server": "1000+",
@@ -187,7 +187,7 @@
         },
         {
             "description": "StrongVPN",
-            "uuid": "6e80e7d8-aed0-11ed-87b2-da5e7ac47349",
+            "uuid": "ce879a0e-d0c9-4276-a3a1-1900d20c1be8",
             "meta": {
                 "name": "StrongVPN",
                 "length_server": "950+",
@@ -198,7 +198,7 @@
         },
         {
             "description": "IVPN",
-            "uuid": "6e80e85a-aed0-11ed-87b2-da5e7ac47349",
+            "uuid": "4e28a0c0-b9df-499b-82c1-9b10351ebbc4",
             "meta": {
                 "name": "IVPN",
                 "length_server": "70+",
@@ -209,7 +209,7 @@
         },
         {
             "description": "VeePN",
-            "uuid": "6e80e940-aed0-11ed-87b2-da5e7ac47349",
+            "uuid": "feb8ca8a-4efc-4d9b-b011-d8f75b37dcfd",
             "meta": {
                 "name": "VeePN",
                 "length_server": "2500+",

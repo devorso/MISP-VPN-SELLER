@@ -57,7 +57,7 @@ func main() {
 		LengthServer, _ := f.GetCellValue("Feuil1", fmt.Sprintf("%v%v", "B", i))
 		LengthLocationServer, _ := f.GetCellValue("Feuil1", fmt.Sprintf("%v%v", "C", i))
 		LengthCountry, _ := f.GetCellValue("Feuil1", fmt.Sprintf("%v%v", "D", i))
-		uuidValue, _ := uuid.NewUUID()
+		uuidValue, _ := uuid.NewRandom()
 
 		data := DataVPN{
 			Value:       Name,
@@ -99,8 +99,9 @@ func main() {
 
 		body, err := io.ReadAll(resp.Body)
 		ipList := strings.Split(string(body), "\n")
-		uuidValIp, _ := uuid.NewUUID()
+
 		for _, ip := range ipList {
+			uuidValIp, _ := uuid.NewRandom()
 			if len(ip) > 0 {
 				dataIp := DataIP{
 					Value:       ip,
@@ -125,7 +126,7 @@ func main() {
 	IPListPIA := strings.Split(string(body), "\n")
 
 	for d := 6; d < len(IPListPIA); d++ {
-		uuidValIp, _ := uuid.NewUUID()
+		uuidValIp, _ := uuid.NewRandom()
 		ipD := IPListPIA[d]
 		if len(ipD) > 0 {
 			ipdataPia := DataIP{
@@ -152,7 +153,7 @@ func main() {
 		ipData := strings.Split(IPListVanish[k], ":")
 		if len(ipData) > 1 {
 			ipDataValue := ipData[1]
-			uuidValIp, _ := uuid.NewUUID()
+			uuidValIp, _ := uuid.NewRandom()
 
 			if len(ipData) > 0 {
 				ipdataPia := DataIP{
@@ -186,7 +187,7 @@ func main() {
 				if i > 0 {
 					description = "Exit IP for Proton VPN"
 				}
-				uuidValIp, _ := uuid.NewUUID()
+				uuidValIp, _ := uuid.NewRandom()
 				dataI := DataIP{Value: ip, Description: description, Uuid: uuidValIp.String(), Meta: DataIPMeta{
 					IP:        ip,
 					Date:      protonVPNDate[i],

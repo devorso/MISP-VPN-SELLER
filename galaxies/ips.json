@@ -1,0 +1,8 @@
+{
+  "description":"IP Information",
+  "icon":"proxy",
+  "name": "IP_LIST",
+  "type":"ip",
+  "uuid":"5fb2d82a-aecf-11ed-a454-da5e7ac47349",
+  "version":1
+}

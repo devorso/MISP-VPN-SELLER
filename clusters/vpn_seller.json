@@ -7,21 +7,236 @@
     "description": "List VPN Seller Information",
     "name": "VPN_SELLER",
     "type": "vpnlist",
-    "uuid": "6e914c50-8254-402c-90dd-b2a4165e48a8",
+    "uuid": "0665c849-2bfa-4f96-a170-ab9522684a66",
     "values": [
-       {
-        "description": "",
-        "meta": {
-            "Name":"",
-            "Length Server":"",
-            "Length Location Server":"",
-            "Length Country":"",
-            "Range IP":[]
-
+        {
+            "description": "NordVPN",
+            "uuid": "b8ccdd66-aecf-11ed-9a02-da5e7ac47349",
+            "meta": {
+                "name": "NordVPN",
+                "length_server": "5500+",
+                "length_location_server": "80+",
+                "length_country": "60",
+                "ip_range": null
+            },
+            "value": "NordVPN"
         },
-        "uuid": "f41b3065-d1ff-4f95-87b9-2f6119a258d9",
-        "value": ""
-       }
+        {
+            "description": "Surfshark",
+            "uuid": "b8cce84c-aecf-11ed-9a02-da5e7ac47349",
+            "meta": {
+                "name": "Surfshark",
+                "length_server": "3200+",
+                "length_location_server": "100+",
+                "length_country": "99",
+                "ip_range": null
+            },
+            "value": "Surfshark"
+        },
+        {
+            "description": "Private Internet Access VPN",
+            "uuid": "b8cce932-aecf-11ed-9a02-da5e7ac47349",
+            "meta": {
+                "name": "Private Internet Access VPN",
+                "length_server": "10 000+",
+                "length_location_server": "100+",
+                "length_country": "84",
+                "ip_range": null
+            },
+            "value": "Private Internet Access VPN"
+        },
+        {
+            "description": "Hotspot Shield",
+            "uuid": "b8cce9fa-aecf-11ed-9a02-da5e7ac47349",
+            "meta": {
+                "name": "Hotspot Shield",
+                "length_server": "3200+",
+                "length_location_server": "125+",
+                "length_country": "80+",
+                "ip_range": null
+            },
+            "value": "Hotspot Shield"
+        },
+        {
+            "description": "IPVanish",
+            "uuid": "b8cceaae-aecf-11ed-9a02-da5e7ac47349",
+            "meta": {
+                "name": "IPVanish",
+                "length_server": "2200+",
+                "length_location_server": "75+",
+                "length_country": "50+",
+                "ip_range": null
+            },
+            "value": "IPVanish"
+        },
+        {
+            "description": "Ivacy",
+            "uuid": "b8cceb62-aecf-11ed-9a02-da5e7ac47349",
+            "meta": {
+                "name": "Ivacy",
+                "length_server": "3500+",
+                "length_location_server": "100+",
+                "length_country": "62",
+                "ip_range": null
+            },
+            "value": "Ivacy"
+        },
+        {
+            "description": "Atlas VPN",
+            "uuid": "b8ccec16-aecf-11ed-9a02-da5e7ac47349",
+            "meta": {
+                "name": "Atlas VPN",
+                "length_server": "750+",
+                "length_location_server": "44+",
+                "length_country": "41",
+                "ip_range": null
+            },
+            "value": "Atlas VPN"
+        },
+        {
+            "description": "ExpressVPN",
+            "uuid": "b8ccecde-aecf-11ed-9a02-da5e7ac47349",
+            "meta": {
+                "name": "ExpressVPN",
+                "length_server": "3200+",
+                "length_location_server": "160",
+                "length_country": "94",
+                "ip_range": null
+            },
+            "value": "ExpressVPN"
+        },
+        {
+            "description": "PureVPN",
+            "uuid": "b8cced9c-aecf-11ed-9a02-da5e7ac47349",
+            "meta": {
+                "name": "PureVPN",
+                "length_server": "6500+",
+                "length_location_server": "89",
+                "length_country": "71",
+                "ip_range": null
+            },
+            "value": "PureVPN"
+        },
+        {
+            "description": "CyberGhost",
+            "uuid": "b8ccee50-aecf-11ed-9a02-da5e7ac47349",
+            "meta": {
+                "name": "CyberGhost",
+                "length_server": "8900+",
+                "length_location_server": "115+",
+                "length_country": "91",
+                "ip_range": null
+            },
+            "value": "CyberGhost"
+        },
+        {
+            "description": "ProtonVPN",
+            "uuid": "b8ccef2c-aecf-11ed-9a02-da5e7ac47349",
+            "meta": {
+                "name": "ProtonVPN",
+                "length_server": "1900+",
+                "length_location_server": "85+",
+                "length_country": "67",
+                "ip_range": null
+            },
+            "value": "ProtonVPN"
+        },
+        {
+            "description": "Norton Secure VPN",
+            "uuid": "b8ccefea-aecf-11ed-9a02-da5e7ac47349",
+            "meta": {
+                "name": "Norton Secure VPN",
+                "length_server": "2000+",
+                "length_location_server": "",
+                "length_country": "31",
+                "ip_range": null
+            },
+            "value": "Norton Secure VPN"
+        },
+        {
+            "description": "Windscribe",
+            "uuid": "b8ccf0a8-aecf-11ed-9a02-da5e7ac47349",
+            "meta": {
+                "name": "Windscribe",
+                "length_server": "400+",
+                "length_location_server": "110+",
+                "length_country": "66+",
+                "ip_range": null
+            },
+            "value": "Windscribe"
+        },
+        {
+            "description": "Mullvad",
+            "uuid": "b8ccf166-aecf-11ed-9a02-da5e7ac47349",
+            "meta": {
+                "name": "Mullvad",
+                "length_server": "835+",
+                "length_location_server": "70",
+                "length_country": "41",
+                "ip_range": null
+            },
+            "value": "Mullvad"
+        },
+        {
+            "description": "Hide.me",
+            "uuid": "b8ccf21a-aecf-11ed-9a02-da5e7ac47349",
+            "meta": {
+                "name": "Hide.me",
+                "length_server": "2100+",
+                "length_location_server": "78+",
+                "length_country": "48",
+                "ip_range": null
+            },
+            "value": "Hide.me"
+        },
+        {
+            "description": "TunnelBear",
+            "uuid": "b8ccfc24-aecf-11ed-9a02-da5e7ac47349",
+            "meta": {
+                "name": "TunnelBear",
+                "length_server": "1000+",
+                "length_location_server": "50+",
+                "length_country": "47",
+                "ip_range": null
+            },
+            "value": "TunnelBear"
+        },
+        {
+            "description": "StrongVPN",
+            "uuid": "b8ccfcd8-aecf-11ed-9a02-da5e7ac47349",
+            "meta": {
+                "name": "StrongVPN",
+                "length_server": "950+",
+                "length_location_server": "60+",
+                "length_country": "40+",
+                "ip_range": null
+            },
+            "value": "StrongVPN"
+        },
+        {
+            "description": "IVPN",
+            "uuid": "b8ccfdbe-aecf-11ed-9a02-da5e7ac47349",
+            "meta": {
+                "name": "IVPN",
+                "length_server": "70+",
+                "length_location_server": "45",
+                "length_country": "32",
+                "ip_range": null
+            },
+            "value": "IVPN"
+        },
+        {
+            "description": "VeePN",
+            "uuid": "b8ccfe90-aecf-11ed-9a02-da5e7ac47349",
+            "meta": {
+                "name": "VeePN",
+                "length_server": "2500+",
+                "length_location_server": "50",
+                "length_country": "42",
+                "ip_range": null
+            },
+            "value": "VeePN"
+        }
     ],
     "version": 1
 }

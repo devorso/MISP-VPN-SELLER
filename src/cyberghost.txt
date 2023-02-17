@@ -1,0 +1,59 @@
+79.141.173.22
+Andromeda	84.19.169.231
+Apus	84.19.169.162
+Ara	217.114.211.242
+Bern	82.195.234.50
+Bootes	84.19.169.168
+Bukarest	93.114.43.204
+Camelopardalis	84.19.165.216
+Cancer	217.114.211.243
+	Carina	84.19.165.213
+	Cetus	84.19.165.220
+	Corvus	84.19.165.219
+	Dorado	84.19.169.227
+	Draco	84.19.169.226
+	Dublin	79.141.162.7
+	Eridanus	84.19.165.211
+	Fillmore	67.221.255.15
+	Fornax	84.19.169.169
+	Gallus	84.19.169.234
+	Gemini	84.19.169.165
+	Grus	84.19.165.221
+	Helsinki	79.141.172.14
+	Horologium	84.19.169.235
+	Hydra	84.19.169.173
+	Indus	84.19.165.217
+	Kobehavn	79.141.165.21
+	Lacerta	84.19.169.228
+	Leo	84.19.169.172
+	Libra	217.114.211.244
+	London	79.141.161.8
+	Lupus	84.19.169.170
+	Luzern	82.195.234.51
+	Lynx	84.19.165.218
+	Madrid	95.141.26.2
+	Monroe	208.100.2.186
+	Musca	217.114.211.245
+	Norma	84.19.165.222
+	Octans	85.17.161.83
+	Oslo	79.141.164.5
+	Pavo	84.19.169.237
+	Pegasus	84.19.165.214
+	Perseus	84.19.169.236
+	Phoenix	84.19.169.229
+	Pictor	85.17.161.82
+	Pierce	67.221.255.16
+	Pisces	84.19.165.215
+	Praha	79.141.166.7
+	Sagitta	85.17.161.84
+	Scorpius	91.206.226.128
+	Sculptor	84.19.169.167
+	Taurus	84.19.169.174
+	Tigris	84.19.169.238
+	Timisoara	93.114.40.93
+	Triangulum	84.19.169.232
+	Virgo	84.19.169.171
+	Volans	178.170.255.4
+	Vulpecula	84.19.165.212
+	Washington	208.100.3.173
+	Warszawa	79.141.160.21

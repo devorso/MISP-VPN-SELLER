@@ -11,7 +11,9 @@ This repository is related to a university project which is about Threat Intelli
 
 ## Purpose
 
-~~**The purpose of this project is to integrate one galaxy in MISP:
+~~**The purpose of this project is to integrate two galaxies in MISP:
+- VPN Seller List
+- IP List for each Seller
 
 ## Methodology
 

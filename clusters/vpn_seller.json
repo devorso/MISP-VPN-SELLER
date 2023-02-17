@@ -9,7 +9,19 @@
     "type": "vpnlist",
     "uuid": "6e914c50-8254-402c-90dd-b2a4165e48a8",
     "values": [
-       
+       {
+        "description": "",
+        "meta": {
+            "Name":"",
+            "Length Server":"",
+            "Length Location Server":"",
+            "Length Country":"",
+            "Range IP":[]
+
+        },
+        "uuid": "f41b3065-d1ff-4f95-87b9-2f6119a258d9",
+        "value": ""
+       }
     ],
     "version": 1
 }

@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/PuerkitoBio/goquery"
 	"github.com/google/uuid"
 	"github.com/xuri/excelize/v2"
 	"io"
@@ -11,6 +12,10 @@ import (
 	"os"
 	"strings"
 )
+
+/**
+*  MISP VPN SELLER Project by Ismail Dinc and Quentin Vuerich
+ */
 
 type DataVPNMeta struct {
 	Name                 string `json:"name"`
@@ -198,24 +203,64 @@ func main() {
 		}
 
 	}
-	//Mullvad
-	/*https://mullvad.net/fr/servers/
-	c := colly.NewCollector()
 
-	// Find and visit all links
+	// Windscribe parsing..
+	//
+	res, err := http.Get("https://github.com/qdm12/gluetun/wiki/Windscribe-servers")
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer res.Body.Close()
+	if res.StatusCode != 200 {
+		log.Fatalf("status code error: %d %s", res.StatusCode, res.Status)
+	}
 
-	c.OnError(func(_ *colly.Response, err error) {
-		log.Println(err.Error())
-	})
-	c.OnRequest(func(request *colly.Request) {
-		log.Println(request.Headers)
-	})
-	c.OnHTML("[aria-controls=\"b6541d73-8ccd-490f-b366-87490b32cb17\"]", func(e *colly.HTMLElement) {
+	// Load the HTML document
+	doc, err := goquery.NewDocumentFromReader(res.Body)
+	if err != nil {
+		log.Fatal(err)
+	}
 
-		fmt.Println(e)
+	doc.Find("td code").Each(func(i int, s *goquery.Selection) {
+		uuidValIp, _ := uuid.NewRandom()
+		dataI := DataIP{Value: s.Nodes[0].FirstChild.Data, Description: "IP Windscribe", Uuid: uuidValIp.String(), Meta: DataIPMeta{
+			IP:        s.Nodes[0].FirstChild.Data,
+			Date:      "Jun 12, 2022",
+			VPNSeller: "Windscribe",
+		}}
+		listIp = append(listIp, dataI)
+
 	})
-	c.Visit("https://mullvad.net/fr/servers/")
-	*/
+
+	//Ivacy vpn
+	// blocked (forbidden)
+	/*https://support.ivacy.com/servers-list/
+	res_ivacy, err := http.Get("https://support.ivacy.com/servers-list/")
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer res_ivacy.Body.Close()
+	if res_ivacy.StatusCode != 200 {
+		log.Fatalf("status code error: %d %s", res_ivacy.StatusCode, res_ivacy.Status)
+	}
+
+	// Load the HTML document
+	doc_ivacy, err := goquery.NewDocumentFromReader(res_ivacy.Body)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	doc_ivacy.Find("td .txt").Each(func(i int, s *goquery.Selection) {
+		//uuidValIp, _ := uuid.NewRandom()
+		/*dataI := DataIP{Value: s.Nodes[0].FirstChild.Data, Description: "Host Ivacy", Uuid: uuidValIp.String(), Meta: DataIPMeta{
+			IP:        s.Nodes[0].FirstChild.Data,
+			Date:      "Jun 12, 2022",
+			VPNSeller: "Ivacy",
+		}}*/
+	//listIp = append(listIp, dataI)
+	//log.Println(s.Nodes[0].FirstChild.Data)
+	//})
+
 	bytes, _ := json.Marshal(&listIp)
 	err = os.WriteFile("ip_galaxy.json", bytes, 777)
 	if err != nil {
